@@ -1,8 +1,12 @@
-#normal input treated as string
-num1 = input('Enter a number : ')
-num2 = input('Enter another number : ')
-print("This is a concatenation : " + num1 + num2)
+#check type of data in python
+a = 7
+b = '7'
+c = 'hello'
+d = True
+e = False
 
-#integer input
-num3 = int(input('Enter a number : '))
-print("This is a integer converted to string for concatenation : " + str(num3))
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
